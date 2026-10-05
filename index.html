@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - eros</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eros Burmann | Estudante de Tecnologia da Informação</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- 1. PRELOADER / INTRO -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-intro" id="logo-intro">EB</div>
+            <div class="text-intro" id="text-intro" style="display: none;">
+                <h1>EROS BURMANN</h1>
+                <p>ESTUDANTE DE TECNOLOGIA DA INFORMAÇÃO</p>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <button id="btn-explore" class="btn btn-glow" style="display: none;">
+                EXPLORAR PORTFÓLIO <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 2. HEADER / NAVBAR -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">EB<span class="dot">.</span></a>
+            
+            <nav class="nav-menu" id="nav-menu"> 
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#evolucao" class="nav-link">Evolução</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                  
+
+                </ul>
+            </nav>
+
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="tech-grid-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge"><i class="fas fa-code"></i> Bem-vindo ao meu espaço</span>
+                    <h1 class="hero-title">Olá, eu sou <span class="gradient-text">Eros Burmann</span></h1>
+                    <h2 class="hero-subtitle">Estudante de Tecnologia da Informação</h2>
+                    <p class="hero-text">
+                        Há 2 anos estudando informática e transformando ideias em projetos digitais através da tecnologia.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projetos" class="btn btn-primary">VER MEUS PROJETOS</a>
+                        <a href="#sobre" class="btn btn-secondary">SOBRE MIM</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-box">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="code-content">
+                            <span class="floating-tag tag-1">&lt;HTML&gt;</span>
+                            <span class="floating-tag tag-2">{ CSS }</span>
+                            <span class="floating-tag tag-3">&lt;/WEB&gt;</span>
+                            <span class="floating-tag tag-4">SQL</span>
+                            <span class="floating-tag tag-5">010101</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <a href="#sobre">
+                    <span>Role para explorar</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- 4. SOBRE MIM -->
+        <section id="sobre" class="sobre section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre <span class="gradient-text">Mim</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="sobre-grid">
+                    <div class="sobre-text-card glass-card">
+                        <p>
+                            Sou estudante de Tecnologia da Informação e estudo informática há aproximadamente 2 anos. Nesse período, venho desenvolvendo conhecimentos principalmente em criação de sites, HTML e CSS. Já desenvolvi diversos projetos próprios e escolares, buscando sempre melhorar meus conhecimentos e criar interfaces cada vez mais bonitas, funcionais e organizadas.
+                        </p>
+                    </div>
+
+                    <div class="sobre-stats">
+                        <div class="stat-card glass-card">
+                            <div class="stat-number gradient-text"><span class="counter" data-target="2">0</span>+</div>
+                            <div class="stat-label">Anos estudando TI</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-number gradient-text">HTML/CSS</div>
+                            <div class="stat-label">Desenvolvimento Web & Interfaces</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-number gradient-text"><i class="fas fa-folder-open"></i></div>
+                            <div class="stat-label">Projetos desenvolvidos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. HABILIDADES -->
+        <section id="habilidades" class="habilidades section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Minhas <span class="gradient-text">Habilidades</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- HTML5 (Destaque) -->
+                    <div class="skill-card glass-card featured-skill">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">Estruturação moderna e semântica para páginas web.</p>
+                        <div class="skill-badge">Foco Principal</div>
+                    </div>
+
+                    <!-- CSS3 (Destaque) -->
+                    <div class="skill-card glass-card featured-skill">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">Estilização, animações, Flexbox, Grid e layout responsivo.</p>
+                        <div class="skill-badge">Foco Principal</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="skill-name">Desenvolvimento Web</h3>
+                        <p class="skill-desc">Criação de sites dinâmicos, funcionais e organizados.</p>
+                        <div class="skill-level">Prática Constante</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 class="skill-name">Responsividade</h3>
+                        <p class="skill-desc">Adaptação perfeita para celulares, tablets e computadores.</p>
+                        <div class="skill-level">Prática Constante</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3 class="skill-name">Design de Interfaces</h3>
+                        <p class="skill-desc">Foco na experiência do usuário, estética moderna e limpa.</p>
+                        <div class="skill-level">Estudando</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                        <h3 class="skill-name">Estruturação de Páginas</h3>
+                        <p class="skill-desc">Organização lógica de componentes e fluxo visual.</p>
+                        <div class="skill-level">Prática Constante</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-name">SQL / Banco de Dados</h3>
+                        <p class="skill-desc">Noções fundamentais de modelagem e consultas de dados.</p>
+                        <div class="skill-level">Conceitos Básicos</div>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="skill-name">Lógica de Programação</h3>
+                        <p class="skill-desc">Resolução de problemas e estruturação de algoritmos.</p>
+                        <div class="skill-level">Em Evolução</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. PROJETO EM DESTAQUE -->
+        <section class="destaque section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projeto em <span class="gradient-text">Destaque</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="destaque-card glass-card glow-frame">
+                    <div class="destaque-img">
+                        <div class="img-placeholder">
+                            <i class="fas fa-store"></i>
+                            <span>Cantinho Mineiro Preview</span>
+                        </div>
+                    </div>
+                    <div class="destaque-info">
+                        <span class="tag-destaque">PROJETO PRINCIPAL</span>
+                        <h3>Cantinho Mineiro</h3>
+                        <p><strong>Objetivo:</strong> Criar uma solução digital interativa para apresentação de pratos com uma identidade temática personalizada.</p>
+                        <p>Cardápio digital desenvolvido com identidade visual inspirada em Festa Junina, unindo tradição estética com estrutura moderna em HTML e CSS.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Design Temático</span>
+                        </div>
+                        <a href="#projetos" class="btn btn-primary">VER DETALHES</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJETOS -->
+        <section id="projetos" class="projetos section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Galeria de <span class="gradient-text">Projetos</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <!-- Filtro de Projetos -->
+                <div class="project-filter">
+                    <button class="filter-btn active" data-filter="todos">Todos</button>
+                    <button class="filter-btn" data-filter="escolar">Escolares</button>
+                    <button class="filter-btn" data-filter="pessoal">Pessoais</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Cantinho Mineiro -->
+                    <div class="project-card glass-card" data-category="pessoal">
+                        <div class="project-img">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Cantinho Mineiro</h3>
+                            <p>Cardápio digital com identidade visual temática de Festa Junina.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver projeto <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn-link code-link"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jornal Escolar JB -->
+                    <div class="project-card glass-card" data-category="escolar">
+                        <div class="project-img">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Jornal Escolar JB</h3>
+                            <p>Site de notícias e informações desenvolvido para o ambiente escolar.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver projeto <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn-link code-link"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hyperion Rural & Urban Tech -->
+                    <div class="project-card glass-card" data-category="pessoal">
+                        <div class="project-img">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Hyperion Rural & Urban Tech</h3>
+                            <p>Projeto focado em soluções tecnológicas para áreas rurais e urbanas.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver projeto <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn-link code-link"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card para Novos aprendizados -->
+                    <div class="project-card glass-card add-project-card" data-category="pessoal">
+                        <div class="add-content">
+                            <i class="fas fa-plus-circle"></i>
+                            <h3>Em Aprendizado</h3>
+                            <p><a href="aprendizado.html">Espaço reservado para verem oque estou aprendendo no momento.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. MINHA EVOLUÇÃO -->
+        <section id="evolucao" class="evolucao section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Minha <span class="gradient-text">Evolução</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Início</h3>
+                            <p>Primeiros contatos com informática e fascínio pelo funcionamento da tecnologia.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>HTML</h3>
+                            <p>Criação das primeiras páginas web e entendimento sobre estrutura semântica.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>CSS</h3>
+                            <p>Aprendizado de estilização, layout responsivo e criação de interfaces visuais.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Projetos</h3>
+                            <p>Desenvolvimento de sites cada vez mais completos, funcionais e organizados.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot future-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Futuro</h3>
+                            <p>Continuar estudando, explorando novas linguagens e evoluindo constantemente na área de TI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. TECNOLOGIAS -->
+        <section class="tecnologias section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tecnologias & <span class="gradient-text">Ferramentas</span></h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="tech-grid">
+                    <div class="tech-box glass-card">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <small class="status status-ok">Prática ativa</small>
+                    </div>
+                    <div class="tech-box glass-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <small class="status status-ok">Prática ativa</small>
+                    </div>
+                    <div class="tech-box glass-card">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <small class="status status-learning">Em aprendizado</small>
+                    </div>
+                    <div class="tech-box glass-card">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                        <small class="status status-learning">Conceitos básicos</small>
+                    </div>
+                    <div class="tech-box glass-card">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git / GitHub</span>
+                        <small class="status status-learning">Em aprendizado</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTATO -->
+        <section id="contato" class="contato section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Vamos criar algo <span class="gradient-text">incrível?</span></h2>
+                    <p class="section-subtitle">Estou sempre buscando aprender, desenvolver novos projetos e transformar ideias em experiências digitais.</p>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="contato-wrapper">
+                    <form id="contact-form" class="contact-form glass-card">
+                        <div class="input-group">
+                            <input type="text" id="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">ENVIAR MENSAGEM <i class="fas fa-paper-plane"></i></button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-btn glass-card" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-btn glass-card" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn glass-card" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 11. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo">EB<span class="dot">.</span></span>
+                <h3>Eros Burmann</h3>
+                <p>Estudante de Tecnologia da Informação</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <p class="footer-quote">"Construindo, aprendendo e evoluindo através da tecnologia."</p>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Eros Burmann. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

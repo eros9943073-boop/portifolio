@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de aprendizado do portfólio de Eros, mostrando evolução em HTML, CSS, JavaScript e banco de dados.">
+    <title>Aprendizado | Eros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Fundo decorativo -->
+    <div class="background-grid"></div>
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-green"></div>
+
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">EROS<span>.</span></a>
+
+            <nav class="nav">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#tecnologias" class="nav-link">Tecnologias</a>
+                <a href="#evolucao" class="nav-link">Evolução</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+            </nav>
+
+            <a href="#contato" class="header-button">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="inicio" class="hero">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        <span class="status-dot"></span>
+                        APRENDIZADO EM INFORMÁTICA
+                    </span>
+
+                    <h1>
+                        Minha evolução na
+                        <span class="gradient-text">programação</span>
+                    </h1>
+
+                    <p>
+                        Estudo informática há 2 anos e venho desenvolvendo
+                        experiência prática principalmente com HTML e CSS,
+                        além de estar aprendendo JavaScript, banco de dados
+                        e desenvolvimento responsivo.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#tecnologias" class="btn btn-primary">Ver o que aprendi</a>
+                        <a href="#projetos" class="btn btn-secondary">Meus projetos</a>
+                    </div>
+                </div>
+
+                <!-- Janela de código decorativa -->
+                <div class="code-window">
+                    <div class="code-top">
+                        <div class="window-dot red"></div>
+                        <div class="window-dot yellow"></div>
+                        <div class="window-dot green"></div>
+                        <span>aprendizado.html</span>
+                    </div>
+
+                    <pre><code><span class="code-tag">&lt;section</span> <span class="code-attr">class</span>=<span class="code-value">"evolucao"</span><span class="code-tag">&gt;</span>
+    <span class="code-tag">&lt;h2&gt;</span>Aprendizado<span class="code-tag">&lt;/h2&gt;</span>
+
+    <span class="code-tag">&lt;p&gt;</span>
+        Evoluindo um projeto
+        de cada vez.
+    <span class="code-tag">&lt;/p&gt;</span>
+<span class="code-tag">&lt;/section&gt;</span></code></pre>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Tecnologias -->
+        <section id="tecnologias" class="section">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-kicker">01 / TECNOLOGIAS</span>
+                    <h2>O que estou <span class="gradient-text">aprendendo</span></h2>
+                    <p>
+                        Conhecimentos que venho desenvolvendo durante minha formação.
+                    </p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <article class="tech-card featured">
+                        <div class="icon-box">&lt;/&gt;</div>
+                        <div class="tech-top">
+                            <span class="tech-number">01</span>
+                            <span class="level">PRINCIPAL</span>
+                        </div>
+                        <h3>HTML</h3>
+                        <p>
+                            Estruturação de páginas, semântica, formulários,
+                            links, imagens, organização de conteúdo e acessibilidade básica.
+                        </p>
+                        <div class="progress">
+                            <span style="width: 85%;"></span>
+                        </div>
+                        <small>Boa experiência prática</small>
+                    </article>
+
+                    <article class="tech-card featured">
+                        <div class="icon-box">#</div>
+                        <div class="tech-top">
+                            <span class="tech-number">02</span>
+                            <span class="level">PRINCIPAL</span>
+                        </div>
+                        <h3>CSS</h3>
+                        <p>
+                            Cores, layouts, Flexbox, Grid, responsividade,
+                            animações, efeitos visuais e criação de interfaces.
+                        </p>
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <small>Boa experiência prática</small>
+                    </article>
+
+                    <article class="tech-card">
+                        <div class="icon-box">JS</div>
+                        <div class="tech-top">
+                            <span class="tech-number">03</span>
+                            <span class="level">EM APRENDIZADO</span>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Interatividade, eventos, validação de formulários,
+                            manipulação da página e integração com serviços.
+                        </p>
+                        <div class="progress">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <small>Em evolução</small>
+                    </article>
+
+                    <article class="tech-card">
+                        <div class="icon-box">DB</div>
+                        <div class="tech-top">
+                            <span class="tech-number">04</span>
+                            <span class="level">EM APRENDIZADO</span>
+                        </div>
+                        <h3>Banco de Dados</h3>
+                        <p>
+                            Tabelas, colunas, registros, SQL, organização de dados
+                            e conexão entre formulários e banco.
+                        </p>
+                        <div class="progress">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <small>Em evolução</small>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Conhecimentos -->
+        <section class="section section-alt">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-kicker">02 / FUNDAMENTOS</span>
+                    <h2>Conhecimentos que fazem parte da minha <span class="gradient-text">formação</span></h2>
+                </div>
+
+                <div class="knowledge-grid">
+
+                    <article class="knowledge-card glass-card">
+                        <span class="mini-number">A</span>
+                        <h3>Semântica HTML</h3>
+                        <p>
+                            Aprendizado sobre a organização correta do conteúdo usando
+                            elementos como header, nav, main, section e footer.
+                        </p>
+                    </article>
+
+                    <article class="knowledge-card glass-card">
+                        <span class="mini-number">B</span>
+                        <h3>Responsividade</h3>
+                        <p>
+                            Criação de páginas que se adaptam a computadores,
+                            tablets e celulares.
+                        </p>
+                    </article>
+
+                    <article class="knowledge-card glass-card">
+                        <span class="mini-number">C</span>
+                        <h3>Formulários</h3>
+                        <p>
+                            Criação de campos, labels, validação e envio de informações
+                            para serviços e bancos de dados.
+                        </p>
+                    </article>
+
+                    <article class="knowledge-card glass-card">
+                        <span class="mini-number">D</span>
+                        <h3>SEO e estrutura</h3>
+                        <p>
+                            Noções de títulos, descrição, organização do conteúdo,
+                            links e boas práticas para páginas web.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Evolução -->
+        <section id="evolucao" class="section">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-kicker">03 / EVOLUÇÃO</span>
+                    <h2>Minha <span class="gradient-text">trajetória</span></h2>
+                    <p>
+                        Um pouco sobre como venho avançando na informática.
+                    </p>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-line"></div>
+
+                    <article class="timeline-item">
+                        <div class="timeline-marker">01</div>
+                        <div class="timeline-content glass-card">
+                            <span>INÍCIO</span>
+                            <h3>Primeiros passos</h3>
+                            <p>
+                                Comecei a estudar informática e conhecer a estrutura
+                                básica das páginas web.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-marker">02</div>
+                        <div class="timeline-content glass-card">
+                            <span>DESENVOLVIMENTO</span>
+                            <h3>HTML + CSS</h3>
+                            <p>
+                                Passei a desenvolver páginas completas com HTML e CSS,
+                                trabalhando layouts, estilos e responsividade.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-marker">03</div>
+                        <div class="timeline-content glass-card">
+                            <span>ATUALMENTE</span>
+                            <h3>Projetos mais completos</h3>
+                            <p>
+                                Comecei a integrar interações com JavaScript e aprender
+                                conceitos de banco de dados e conexão com sites.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-marker future">04</div>
+                        <div class="timeline-content glass-card">
+                            <span>PRÓXIMO PASSO</span>
+                            <h3>Continuar evoluindo</h3>
+                            <p>
+                                Aprofundar JavaScript, bancos de dados e outras
+                                tecnologias para construir projetos cada vez melhores.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="section section-alt">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-kicker">04 / PRÁTICA</span>
+                    <h2>Projetos que coloquei em <span class="gradient-text">prática</span></h2>
+                    <p>
+                        Projetos que representam parte do meu aprendizado.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card glass-card">
+                        <div class="project-icon">01</div>
+                        <div>
+                            <span class="project-tag">TECNOLOGIA</span>
+                            <h3>Hyperion Rural & Urban Tech</h3>
+                            <p>
+                                Projeto de uma empresa de tecnologia voltada para
+                                suporte técnico em áreas rurais e urbanas.
+                            </p>
+                        </div>
+                        <a href="#" class="project-link">Ver projeto →</a>
+                    </article>
+
+                    <article class="project-card glass-card">
+                        <div class="project-icon">02</div>
+                        <div>
+                            <span class="project-tag">WEB</span>
+                            <h3>Cantinho Mineiro</h3>
+                            <p>
+                                Site de cardápio digital com produtos, carrinho,
+                                organização visual e recursos de interação.
+                            </p>
+                        </div>
+                        <a href="#" class="project-link">Ver projeto →</a>
+                    </article>
+
+                    <article class="project-card glass-card">
+                        <div class="project-icon">03</div>
+                        <div>
+                            <span class="project-tag">ESCOLAR</span>
+                            <h3>Projeto Site Escolar</h3>
+                            <p>
+                                Projeto relacionado ao ambiente escolar, trabalhando
+                                organização de conteúdo, notícias e apresentação.
+                            </p>
+                        </div>
+                        <a href="#" class="project-link">Ver projeto →</a>
+                    </article>
+
+                    <article class="project-card glass-card highlight-project">
+                        <div class="project-icon">04</div>
+                        <div>
+                            <span class="project-tag">PORTFÓLIO</span>
+                            <h3>Meu Portfólio</h3>
+                            <p>
+                                Site pessoal desenvolvido para apresentar minha
+                                evolução, habilidades, projetos e aprendizados.
+                            </p>
+                        </div>
+                        <a href="index.html" class="project-link">Voltar ao portfólio →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Próximos passos -->
+        <section class="section">
+            <div class="container">
+                <div class="next-box glass-card">
+                    <div>
+                        <span class="section-kicker">05 / PRÓXIMOS PASSOS</span>
+                        <h2>O aprendizado <span class="gradient-text">continua</span></h2>
+                        <p>
+                            Quero continuar praticando, melhorar meus projetos,
+                            aprender novas tecnologias e transformar cada estudo
+                            em algo que possa ser aplicado na prática.
+                        </p>
+                    </div>
+
+                    <div class="next-items">
+                        <span>JavaScript</span>
+                        <span>Banco de Dados</span>
+                        <span>APIs</span>
+                        <span>Projetos reais</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="contact section-alt">
+            <div class="container contact-container">
+                <div>
+                    <span class="section-kicker">06 / CONTATO</span>
+                    <h2>Vamos <span class="gradient-text">conversar?</span></h2>
+                    <p>
+                        Para entrar em contato, volte ao formulário principal
+                        do meu portfólio.
+                    </p>
+                </div>
+
+                <a href="index.html#contato" class="btn btn-primary">Ir para o formulário</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <a href="index.html" class="logo">EROS<span>.</span></a>
+                <p>Aprendendo, praticando e evoluindo.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#inicio">Início</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#evolucao">Evolução</a>
+                <a href="#projetos">Projetos</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Eros. Projeto de portfólio.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+    <script>
+        const header = document.getElementById("header");
+        const backToTop = document.getElementById("back-to-top");
+
+        window.addEventListener("scroll", () => {
+            header.classList.toggle("scrolled", window.scrollY > 30);
+            backToTop.classList.toggle("show", window.scrollY > 400);
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        const links = document.querySelectorAll(".nav-link");
+        const sections = document.querySelectorAll("main section[id]");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 160;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            links.forEach(link => {
+                link.classList.toggle(
+                    "active",
+                    link.getAttribute("href") === "#" + current
+                );
+            });
+        });
+    </script>
+</body>
+</html>
